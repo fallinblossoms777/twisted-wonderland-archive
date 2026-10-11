@@ -2,6 +2,13 @@ body {
     background-image: url("/imgs/home.png");
 }
 
+@font-face {
+    font-family: 'Brothers-Bold';
+    src: url(/fonts/Brothers\ Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 .information-page {
     background-color: white;
     display: flex;
@@ -14,9 +21,15 @@ body {
 .bar {
     display: flex;
     padding: 20px;
+    font-family: 'Brothers-Bold';
 }
 
 .bar .options {
     font-size: 25px;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

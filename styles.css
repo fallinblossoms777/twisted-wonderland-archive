@@ -1,10 +1,18 @@
 body {
     background-image: url("imgs/home.png");
+    display: flex;
 }
 
 @font-face {
     font-family: 'Brothers-Bold';
     src: url('fonts/Brothers-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Newcomen-Bold';
+    src: url('fonts/Newcomen-Bold.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -45,6 +53,26 @@ a {
 }
 
 .books img {
-    max-width: 100%;
-    height: auto;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Newcomen-Bold', sans-serif;
+    color: rgb(128, 109, 46);
+    font-size: 20px;
+}
+
+.books {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }

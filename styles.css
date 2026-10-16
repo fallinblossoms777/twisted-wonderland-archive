@@ -31,6 +31,12 @@ body {
     justify-content: space-evenly;
     align-items: flex-end;
     color: rgb(128, 109, 46);
+    border-style: solid;
+    margin: 100px 100px 0;
+}
+
+.bar a:hover {
+    color: black;
 }
 
 a {
